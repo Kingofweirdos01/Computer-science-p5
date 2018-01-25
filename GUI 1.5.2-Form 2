@@ -1,0 +1,38 @@
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication2
+{
+    public partial class Form2 : Form
+    {
+        Form1 face2;
+        public bool derp3form = false;
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form derp1form = button2.FindForm();
+            derp1form.Visible = false;
+            if (derp1form.Visible == false)
+            {
+                derp3form = true;
+             
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+            
+        }
+    }
+}
+
+
+
+The different forms allow us to simulate a near game experience as you click one button it brings you to the beginnning of the game,
+the button on the other form will bring you back to the "main menu."
