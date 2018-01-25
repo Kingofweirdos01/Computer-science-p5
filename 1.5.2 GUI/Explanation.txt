@@ -1,0 +1,2 @@
+We used the different forms to make a game like experience in which the main player at the very beginning clicks the different options they have,
+ which takes them to a different screen. On the other screen we added another button to be like the "main menu" button.
